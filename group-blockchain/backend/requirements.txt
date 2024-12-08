@@ -1,0 +1,5 @@
+Flask==2.2.5
+eth-utils==1.10.0
+eth-hash==0.3.2
+eth-abi==2.2.0
+web3==5.31.1

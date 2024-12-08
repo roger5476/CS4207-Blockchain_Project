@@ -1,0 +1,28 @@
+ganache --port 7545
+
+# Make sure you're in the project root directory
+truffle migrate --reset
+-------------------
+pip install web3 py-solc-x
+-----------------------
+python scripts/deploy.py
+
+cd backend
+venv\Scripts\activate
+python app.py
+
+cd frontend
+python -m http.server 8000
+-------------------------------
+pip install flask
+pip install web3
+pip install eth-account
+# Navigate to your project directory
+cd C:\Users\18265693\Desktop\group-blockchain
+
+# Create virtual environment
+python -m venv venv
+
+# Activate virtual environment (Windows)
+.\venv\Scripts\activate
+--------------------------------------------
